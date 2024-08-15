@@ -1,13 +1,13 @@
 // alert("hello world")
 
 // console.log("hello fomr console")
- // assigning a variable//
+// assigning a variable//
 
 //  var name = "loyus"
 //  var lastName = "maharjan"
-//  counter = 0 
+//  counter = 0
 
-//  camel case 
+//  camel case
 // firstNAme = 10;
 // pascal case
 // FirsName = 11;
@@ -96,11 +96,11 @@
 //  } else{
 //     alert("random")
 //  }
- //// write code to display grade of the student
- // A grade for 80% and above
- // B grade for 60% and above
- // C grade for 40% and above 
- // F grade for others
+//// write code to display grade of the student
+// A grade for 80% and above
+// B grade for 60% and above
+// C grade for 40% and above
+// F grade for others
 
 // let grade = prompt("Please enter your %")
 // if(grade >= 80){
@@ -108,9 +108,9 @@
 // } else if ( grade >= 60 ){
 //     console.log("grade B")
 // }else if (grade >= 40){
-//     console.log 
+//     console.log
 //        ( "grade C")
-   
+
 // } else{console.log("Fail grade")}
 
 // grade = prompt("grade ");
@@ -127,14 +127,14 @@
 //     default:
 //         alert("not graded")
 // }
- //////////Important////////////
+//////////Important////////////
 // var ternary = 10;
 // var tempValue = 100;
 // tempValue = ternary == 10 ? ternary : 100;
 // console.log(ternary)
 // imp//////
 
-// try{        
+// try{
 //     let variable = 10
 // } catch(error){
 //     console.log(error)
@@ -179,7 +179,7 @@
 // console.log(subStiring)
 
 //7//
-// function countVowel(str) { 
+// function countVowel(str) {
 // const count = str.match(/[aeiou]/gi).length;
 // return count;
 // }
@@ -191,11 +191,9 @@
 // console.log(trim.split(""))
 // let array = [1,2,3,4,5]
 // array.slice(2,3,6,7,8)
-// console.log(array)
-
+// console.log(array)``
 
 // Home Work////
-
 
 // Display reverse string
 // let userInput = prompt("please enter your name")
@@ -218,12 +216,10 @@
 // console.log(palindrome('radar'))
 //Pring all factors
 
-
 //1//
 // let inputString = prompt("Enter a string")
 // let reversedString = inputString.split('').reverse().join("")
 // console.log("reverse String of the input is" , reversedString)
-
 
 //2//
 // let number = [1,2,3,4,5]
@@ -244,8 +240,6 @@
 // else{
 //     console.log("not a pallindrome")
 // }
-
-
 
 //4//
 // let givenNumber = prompt("Enter a number")
@@ -271,11 +265,9 @@
 
 //6//
 
-// function celsiusToFahrenheit(celsius) {
-//     const fahrenheit = celsius * 9/5 + 32;
-//     return fahrenheit;
-//   }
-//   console.log(celsiusToFahrenheit(0))
+// var celcius = 0
+// var far = celcius * 9/5 + 32
+// console.log(far);
 
 // program to count the number of vowels in a string
 
@@ -287,16 +279,15 @@
 //      {
 //   if (vowels.includes(normalString[i])) {
 //     vowelsCount++;
-   
+
 //   }
 // }
 // console.log(vowelsCount);
 
 //remove duplicate number
 // let array= [1, 2, 2, 3, 4, 5, 6, 6, 7, 7, 7, 9];
-// // let array2 = array.slice([2],[5])
+// let array2 = array.slice([2],[5])
 // // let array2 = array.splice([2],[5])
-
 // let uniqueArray = [...new Set(array)];
 // console.log(uniqueArray);
 
@@ -322,15 +313,85 @@
 // console.log(count);
 
 // number = 1;
-// isPrime = true
+// isPrime = true;
 
-// for (i = 2 ; i  <  number; i++) {
-//     if(number % i == 0){
-//         isPrime = false;
-//      }
+// for (i = 2; i < number; i++) {
+//   if (number % i == 0) {
+//     isPrime = false;
+//   }
 // }
-// if(isPrime){
-//     console.log("prime number")
-// }else(
-//         console.log("not a prime number")
-//     )
+// if (isPrime) {
+//   console.log("prime number");
+// } else console.log("not a prime number");
+
+
+///////ES6//////
+// let name = "loyus"
+// let age = 27
+// var string = `${name } is ${age} old`
+// console.log(string);
+
+// function sum (a,b) {
+//     /////code execution///
+//     return a + b
+//     // console.log(`sum is ${a +b}`);
+// }
+// let sumtab = sum(100 , 300)
+// console.log(sumtab);
+
+// let person = prompt("enter data")
+// function celTofar (celcius){
+// let far = celcius * 9/5 + 32
+// return far
+// }
+
+// console.log(celTofar(person));
+
+// let sum = function(a,b){
+//  return a + b
+// }
+// d = sum(a,b)
+
+// let multi = (a,b) => {return a * b}
+// console.log(multi(3,5));
+
+// (function() {
+//     console.log("object");
+// })();
+////create a function create a prime check
+// let person = prompt("enter number")
+// const dataPrime = (number)=>{
+//     for (i = 2; i < number; i++) {
+//         if (number % i == 0) {
+//           return false;
+//         }
+//       }
+//       return true;
+      
+// }
+// if (dataPrime(person)) {
+//     console.log("prime number");
+//   } else console.log("not a prime number")
+
+
+//  const evenNumber = (number) => {
+//     for (i = 2 ; i = number ; i++){
+//         if (i == 0)
+//     }
+//  }
+
+
+
+
+const animal = {
+    firstName : "lion",
+    lastName : "baag",
+    age :  "20",
+    legs : "4",
+    fullName : function (){
+        return this.firstName + " " + this.lastName 
+    },
+  
+}
+const { firstName , lastName, age } = animal
+console.log(firstName,  lastName,  age);
