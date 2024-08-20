@@ -383,15 +383,15 @@
 
 
 
-// const animal = {
-//     firstName : "lion",
-//     lastName : "baag",
-//     age :  "20",
-//     legs : "4",
-//     fullName : function (){
-//         return this.firstName + " " + this.lastName 
-//     },
+const animal = {
+    firstName : "lion",
+    lastName : "baag",
+    age :  "20",
+    legs : "4",
+    fullName : function (){
+        return this.firstName + " " + this.lastName 
+    },
   
-// }
-// const { firstName , lastName, age } = animal
-// console.log(firstName,  lastName,  age);
+}
+const { firstName , lastName, age, legs} = animal
+console.log(firstName,  lastName,  age, legs);
