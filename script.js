@@ -383,15 +383,20 @@
 
 
 
-const animal = {
-    firstName : "lion",
-    lastName : "baag",
-    age :  "20",
-    legs : "4",
-    fullName : function (){
-        return this.firstName + " " + this.lastName 
-    },
+// const animal = {
+//     firstName : "lion",
+//     lastName : "baag",
+//     age :  "20",
+//     legs : "4",
+//     fullName : function (){
+//         return this.firstName + " " + this.lastName 
+//     },
   
-}
-const { firstName , lastName, age, legs} = animal
-console.log(firstName,  lastName,  age, legs);
+// }
+// const { firstName , lastName, age, legs} = animal
+// console.log(firstName,  lastName,  age, legs);
+let currentDate = new Date();
+console.log(currentDate);
+let month = currentDate.getMonth();
+console.log(month);
+//  let year = currentDate.getfullyear();
